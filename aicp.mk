@@ -18,6 +18,7 @@ $(call inherit-product, device/amazon/thor/full_thor.mk)
 
 TARGET_SCREEN_WIDTH := 1200
 TARGET_SCREEN_HEIGHT := 1920
+-include vendor/aicp/configs/bootanimation.mk
 
-PRODUCT_NAME := cm_thor
+PRODUCT_NAME := aicp_thor
 PRODUCT_RELEASE_NAME := KFireHDX
