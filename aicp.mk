@@ -22,7 +22,7 @@ PRODUCT_RELEASE_NAME := KFireHDX
 
 # AICP Device Maintainer
 PRODUCT_BUILD_PROP_OVERRIDES += \
-        DEVICE_MAINTAINERS="droidfivex (5x)"
+        DEVICE_MAINTAINERS="5x (droidfivex)"
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1200
