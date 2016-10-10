@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Inherit device configuration for Kindle Fire
-$(call inherit-product, device/amazon/hdx-common/aicp.mk)
+$(call inherit-product, device/amazon/hdx-common/cm.mk)
 $(call inherit-product, device/amazon/thor/full_thor.mk)
 
 # Setup device specific product configuration.
