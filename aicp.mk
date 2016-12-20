@@ -12,12 +12,23 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Inherit device configuration for Kindle Fire
+# Inherit AICP common bits
+$(call inherit-product, vendor/aicp/configs/common.mk)
+
+# Inherit HDX common device configuration
 $(call inherit-product, device/amazon/hdx-common/cm.mk)
+
+# Inherit AOSP device configuration
 $(call inherit-product, device/amazon/thor/full_thor.mk)
 
-TARGET_SCREEN_WIDTH := 1200
-TARGET_SCREEN_HEIGHT := 1920
+# AICP Device identifiers
+PRODUCT_NAME := aicp_thor
 
-PRODUCT_NAME := cm_thor
-PRODUCT_RELEASE_NAME := KFireHDX
+# AICP Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="Izumi Inami (droidfivex)"
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
+-include vendor/aicp/configs/bootanimation.mk

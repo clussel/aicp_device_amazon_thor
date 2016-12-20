@@ -1,0 +1,6 @@
+# AICP hardware properties
+ro.device.chipset=Qualcomm Snapdragon 800 MSM8974
+ro.device.cpu=2.2GHz quad-core Krait
+ro.device.gpu=Qualcomm Adreno 330
+ro.device.front_cam=1.3 MP
+ro.device.screen_res=1200x1920 (323 ppi)

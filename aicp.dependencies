@@ -1,0 +1,20 @@
+[
+	{
+		"repository":	"CyanogenMod/android_device_amazon_hdx-common",
+		"target_path":	"device/amazon/hdx-common",
+		"branch":	"cm-14.1",
+		"remote":	"github"
+	},
+	{
+		"repository":	"CyanogenMod/android_kernel_amazon_hdx-common",
+		"target_path":	"kernel/amazon/hdx-common",
+		"branch":	"cm-14.1",
+		"remote":	"github"
+	},
+	{
+		"repository":	"AICP/proprietary_vendor_amazon",
+		"target_path":	"vendor/amazon",
+		"branch":	"n7.1",
+		"remote":	"aicp"
+	}
+]
