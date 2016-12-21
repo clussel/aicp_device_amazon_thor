@@ -12,6 +12,12 @@
 		"remote":	"github"
 	},
 	{
+		"repository":	"CyanogenMod/android_device_qcom_common",
+		"target_path":	"device/qcom/common",
+		"branch":	"cm-14.1",
+		"remote":	"github"
+	},
+	{
 		"repository":	"AICP/proprietary_vendor_amazon",
 		"target_path":	"vendor/amazon",
 		"branch":	"n7.1",
