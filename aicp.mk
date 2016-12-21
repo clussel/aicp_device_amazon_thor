@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Inherit AICP common bits
-$(call inherit-product, vendor/aicp/configs/common.mk)
+$(call inherit-product, vendor/aicp/configs/common_tablet.mk)
 
 # Inherit HDX common device configuration
 $(call inherit-product, device/amazon/hdx-common/cm.mk)
@@ -30,5 +30,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
-TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_WIDTH := 1200
 -include vendor/aicp/configs/bootanimation.mk
